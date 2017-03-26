@@ -1,0 +1,10 @@
+<div id="quoteContainer">
+    <div id="quoteContent">
+        <h1 ng-show="vm.quote">{{vm.quote}}</h1>
+        <div ng-hide="vm.quote" id='loadingQuote'></div>
+    </div>
+    <h4 ng-show="vm.author">
+        <a ng-show="vm.wikipediaUrl" ng-href="{{vm.wikipediaUrl}}" target="_blank">{{vm.author}}</a>
+        <span ng-show="!vm.wikipediaUrl">{{vm.author}}</span>
+    </h4>
+</div>
