@@ -1,2 +1,2 @@
 # random-quotes
-Random quotes and random images, testing out things with AngularJS
+Nothing fancy, just a playground project: "Random quotes and random images, testing out / learning things with [AngularJS 1.6.x](https://angularjs.org/)".
